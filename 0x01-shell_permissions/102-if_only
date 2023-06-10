@@ -1,2 +1,2 @@
 #!/bin/bash
-if  [ $(stat -c '%n' hello) = "guillaume" ] : then chown betty hello; fi 
+chmod --from=guillaume betty hello
